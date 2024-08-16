@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(240, 240, 240);
+  width: 500px;
+  height: 500px;
+}
+
+.form-row {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 10px;
+}
+
+.form-input {
+  display: flex;
+  flex-direction: column;
+}
+
+input:focus {
+  outline: 1px solid rgb(81, 81, 255);
+}
+
+input:invalid {
+  outline: 1px solid red;
+}
